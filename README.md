@@ -14,7 +14,9 @@ grade_card.c: Source file containing the implementation of the generateGradeCard
 makefile.mak: Makefile for compiling the program with multiple source files.
 
 How to Compile and Run: make
+
                         gcc -Wall -Wextra -std=c99 -o grade_card main.c average.c grade_card.c
+                        
                         ./grade_card
                         
                         
